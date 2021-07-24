@@ -12,7 +12,7 @@ However, PyTorch does provide the facility to download the MNIST dataset in its 
 ## Model
 The model consists of a Generator and a Discriminator. 
 The Generator generates images from a vector of random number from a normal distribution. The Discriminator is a CNN classifier.
-<p>Model Architecture</p>
+### Model Architecture
 <img src = "https://github.com/shikhharsiingh/DCGAN-PyTorch/blob/master/images/Model_desc.png" alt = "/images/model_desc.png" height = 350></img>
 <p>Note: The architecture is not generic and is hardcoded for the MNIST dataset's images.</p>
 
