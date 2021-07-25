@@ -1,5 +1,5 @@
 # DCGAN-PyTorch
-DCGANs are short for Deep Convolutional Generative Adversarial Networks. These work on the same adversarial nature of the generator and discrimnator to only that instead of simple model, Convolutions and Convolution Transpose layers are used.
+DCGANs are short for Deep Convolutional Generative Adversarial Networks. These work on the same adversarial nature of the generator and discriminator, only that instead of simple model layers, Convolutions and Convolution Transpose layers are used.
 Here, we have implemented DCGAN in PyTorch on the MNIST Dataset.
 
 ## Dataset
@@ -11,7 +11,7 @@ However, PyTorch does provide the facility to download the MNIST dataset in its 
 
 ## Model
 The model consists of a Generator and a Discriminator. 
-The Generator generates images from a vector of random number from a normal distribution. The Discriminator is a CNN classifier. In a nutshell, the model's or rather the generator's objective is to generate images as similar as possible to the original images, however, it needs a feedback on its progress, this feedback is given by the Discriminator as to how good it is doing.
+The Generator generates images from a vector of random numbers from a normal distribution. The Discriminator is a CNN classifier. In a nutshell, the model's or rather the generator's objective is to generate images as similar as possible to the original images, however, it needs a feedback on its progress, this feedback is given by the Discriminator as to how good it is doing.
 ### Model Architecture
 <img src = "https://github.com/shikhharsiingh/DCGAN-PyTorch/blob/master/images/Model_desc.png" alt = "/images/model_desc.png" height = 350></img>
 <p>Note: The architecture is not generic and is hardcoded for the MNIST dataset's images.</p>
